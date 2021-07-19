@@ -1,0 +1,26 @@
+{
+    "name": "talentbrick/add-search",
+    "description": "Search",
+    "type": "flarum-extension",
+    "license": "proprietary",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "TalentBrick",
+            "homepage": "https://www.talentbrick.com/",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Search",
+            "icon": {
+                "name": "fas fa-edit",
+                "backgroundColor": "#684ba6",
+                "color": "#fff"
+            }
+        }
+    }
+}
