@@ -1,6 +1,6 @@
 import app from 'flarum/forum/app';
-import addModels from './addmodal';
-import addMailingLinks from './addsearch';
+import addmodal from './addmodal';
+import addsearch from './addsearch';
 
 app.initializers.add('talentbrick-forum-search-for-mobile-devices', () => {
     addmodal();
