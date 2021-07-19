@@ -1,6 +1,6 @@
 {
     "name": "talentbrick/add-search",
-    "description": "Search",
+    "description": "Add Search",
     "type": "flarum-extension",
     "license": "proprietary",
     "require": {
