@@ -16,7 +16,7 @@ export default class searchmodal extends Modal {
 return [
 items.add('search', Search.component({
             state: app.search,
-        }), -100);
+        }), -100),;
 ];
   }
 }
