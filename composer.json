@@ -1,6 +1,6 @@
 {
     "name": "talentbrick/add-search",
-    "description": "Add Search",
+    "description": "Add Search in Mobile Menu",
     "type": "flarum-extension",
     "license": "proprietary",
     "require": {
