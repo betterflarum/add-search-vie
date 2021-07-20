@@ -9,7 +9,7 @@ export default () => {
   extend(MobileTab.prototype, 'items', (items) => {
     // Add new item
     items.add(
-        'logIn',
+        'searchbutton',
         <Button icon="fas fa-search" className="Button Button--link SearchMenu" onclick={() => app.modal.show(searchmodal, {})}>
           Search
         </Button>,
