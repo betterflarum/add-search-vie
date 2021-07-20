@@ -1,5 +1,6 @@
 import Modal from 'flarum/common/components/Modal';
 import ItemList from 'flarum/utils/ItemList';
+import Search from 'flarum/components/Search';
 
 export default class searchmodal extends Modal {
     static isDismissible = true;
