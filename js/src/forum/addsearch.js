@@ -11,7 +11,7 @@ export default () => {
     items.add(
         'logIn',
         <Button icon="fas fa-search" className="Button Button--link SearchMenu" onclick={() => app.modal.show(searchmodal, {})}>
-          "Search"
+          Search
         </Button>,
       89
     );
