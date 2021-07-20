@@ -1,4 +1,4 @@
-import { components } from '@acpl/mobile-tab';
+import { components } from '@acpl-mobile-tab';
 import { extend } from 'flarum/common/extend';
 import searchmodal from './searchmodal';
 
