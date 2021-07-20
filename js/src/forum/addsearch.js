@@ -1,6 +1,7 @@
 import { components } from '@acpl-mobile-tab';
 import { extend } from 'flarum/common/extend';
 import searchmodal from './searchmodal';
+import Button from 'flarum/common/components/Button';
 
 const { MobileTab, MobileTabItem } = components;
 
