@@ -1,4 +1,6 @@
 import Modal from 'flarum/common/components/Modal';
+import { extend } from 'flarum/common/extend';
+import ItemList from 'flarum/utils/ItemList';
 
 export default class searchmodal extends Modal {
   static isDismissible = true;
@@ -13,10 +15,21 @@ export default class searchmodal extends Modal {
 
   content() {
     // Content to show in the modal's body
-return [
+
+    
+      return (
+      <div className="Modal-body">
+        <div className="searchbar">
+          {this.fields().toArray()}
+        </div>
+      </div>
+    );
+     fields() {
+const items = new ItemList();
 items.add('search', Search.component({
             state: app.search,
         }), -100),
-];
+    return items;
   }
+ }
 }
