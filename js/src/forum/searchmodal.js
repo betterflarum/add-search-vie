@@ -14,8 +14,6 @@ export default class searchmodal extends Modal {
 
     content() {
         // Content to show in the modal's body
-
-
         return (
             <div className="Modal-body">
                 <div className="searchbar">
@@ -28,8 +26,7 @@ export default class searchmodal extends Modal {
         const items = new ItemList();
         items.add('search', Search.component({
             state: app.search,
-        }), -100),
+        }), -100);
         return items;
     }
-
 }
