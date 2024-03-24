@@ -1,5 +1,5 @@
 {
-    "name": "talentbrick/add-search",
+    "name": "betterflarum/add-search",
     "description": "Add Search in Mobile Menu",
     "type": "flarum-extension",
     "license": "proprietary",
@@ -9,8 +9,7 @@
     },
     "authors": [
         {
-            "name": "TalentBrick",
-            "homepage": "https://www.talentbrick.com/",
+            "name": "betterflarum",
             "role": "Developer"
         }
     ],
